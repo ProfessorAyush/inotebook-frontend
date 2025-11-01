@@ -15,7 +15,7 @@ const Login = (props) => {
     setIsLoading(true);
 
     try {
-      const response = await fetch("http://localhost:5000/api/auth/login", {
+      const response = await fetch("https://inotebook-backend-service-zwcu.onrender.com/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
